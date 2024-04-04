@@ -6,9 +6,9 @@ metadata:
     app: frontend
   name: frontend
 spec:
-  replicans: 2
+  replicas: 3
   selector:
-    matchLabels:
+    matchBabels:
       app: frontend
   strategy: {}
   template:
