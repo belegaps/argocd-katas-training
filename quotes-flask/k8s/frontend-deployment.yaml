@@ -8,7 +8,7 @@ metadata:
 spec:
   replicas: 3
   selector:
-    matchBabels:
+    matchLabels:
       app: frontend
   strategy: {}
   template:
